@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Aeonik TRIAL;
+    src: url(./AeonikTRIAL-Regular.otf);
+}
+
+html,
+body {
+    background: #000;
+    font-family: Aeonik TRIAL;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto
+}
+
+.blue-bg {
+    background: rgba(44, 64, 203, 0.6);
+}
+
+.navbar-brand{
+    color: #fff
+}
+
+.navbar li a{
+    color: #fff
+}
+
+/* Hero Section */
+
+.hero-head {
+    font-family: Aeonik TRIAL;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 63.84px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(180deg, #2C40CB 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-head-sub {
+    font-family: Aeonik TRIAL;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41.04px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff
+}
+
+.hero-para {
+    font-family: Aeonik TRIAL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff
+}
+
+.hero-btn-1 {
+    background: linear-gradient(271.94deg, #2C40CB 11.89%, #162065 93.27%);
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    color: #fff;
+}
+
+.hero-btn-2 {
+    border: 1px solid transparent; /* Define a fallback border */
+    border-image-source: 
+        linear-gradient(0deg, #2C40CB, #2C40CB),
+        linear-gradient(106.26deg, rgba(255, 255, 255, 0) 7.07%, #FFFFFF 38.96%, rgba(255, 255, 255, 0) 98.49%);
+    border-image-slice: 1; /* Required for border-image to work */
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    color: #fff;
+    background: transparent;
+}
+
+/* About Section */
+
+.about-head {
+    font-family: Aeonik TRIAL;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41.04px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.about-para {
+    font-family: Aeonik TRIAL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+/* Tokeno Section */
+
+.toke-head-sub {
+    font-family: Aeonik TRIAL;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    margin: 0;
+}
+
+.toke-head {
+    font-family: Aeonik TRIAL;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.unlock-card {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    height: 150px;
+}
+
+.unlock-card-head {
+    font-family: Aeonik TRIAL;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.unlock-card-para {
+    font-family: Aeonik TRIAL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+/* Validation Section */
+
+.validation-head {
+    font-family: Aeonik TRIAL;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.validation-para {
+    font-family: Aeonik TRIAL;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+/* Map Section */
+
+.map-section {
+    background: url(./images/map.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.map-head {
+    font-family: Aeonik TRIAL;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.personalisation-card {
+    padding: 10px;
+    background: #171717;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 10px !important;
+    border-radius: 10px;
+}
+
+.personalisation-head {
+    font-family: Aeonik TRIAL;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-list-head{
+    color: #fff;
+}
+
+.footer-list li a{
+    color: #fff;
+    margin-left: -40px;
+}
