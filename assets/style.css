@@ -234,6 +234,11 @@ section {
     color: #fff
 }
 
+footer{
+    padding: 20px 0;
+    margin-bottom: -200px;
+}
+
 .footer-list{
     list-style-type: none;
 }
@@ -243,7 +248,7 @@ section {
 }
 
 .footer-list li a{
-    color: #fff;
+    color: #d3d3d3;
     margin-left: -40px;
 }
 
