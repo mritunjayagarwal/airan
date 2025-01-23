@@ -166,6 +166,10 @@ section {
     color: #000;
 }
 
+.margin-topp{
+    margin-top: 200px;
+}
+
 /* Validation Section */
 
 .validation-head {
@@ -241,4 +245,81 @@ section {
 .footer-list li a{
     color: #fff;
     margin-left: -40px;
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .container{
+        max-width: 95%;
+    }
+
+    .nav-item{
+        margin: 10px 0;
+    }
+
+    .uni-btn{
+        width: 100%;
+        margin-top: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .nav-item{
+        margin: 10px 0;
+    }
+
+    .uni-btn{
+        width: 100%;
+        margin-top: 10px !important;
+    }
+
+    .unlock-card {
+        height: 200px;
+    }
+
+    .toke-head{
+        font-size: 30px;
+        margin: 0 0 10px 0;
+        line-height: normal;
+    }
+
+    .hero-btn-1, .hero-btn-2{
+        width: 100% !important;
+    }
+
+    .hero-head{
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .hero-head-sub{
+        font-size: 30px;
+    }
+
+    .hero-para{
+        font-size: 18px;
+        
+    }
+
+    .margin-topp{
+        margin-top: 20px;
+    }
+    .personalisation-head{
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .validation-head{
+        font-size: 30px;
+        line-height: normal;
+        margin-top: 20px;
+    }
+
+    .validation-para{
+        font-size: 15px;
+        color: #d3d3d3;
+        line-height: normal;
+    }
 }
